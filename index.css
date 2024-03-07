@@ -54,16 +54,6 @@ a {
   text-decoration: none;
 }
 
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  width: 100vw;
-  line-height: 1.5;
-  font-family: var(--poppins-font);
-  margin: 0;
-  padding: 0;
-}
-
 /* Set shorter line heights on headings and interactive elements */
 h1,
 h2,
@@ -109,16 +99,30 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-/* Responsive */
+/* Body */
 
-.container-box {
-  max-width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-inline: auto;
+body {
+  font-family: var(--poppins-font);
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
+
+/* Hero */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/000/original/5.png?1709826692");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 300px 0;
+  margin-top: 10px;
+}
+
+/* Media Queries */
 
 \* 2xl \* @media (max-width: 1536px) {
   .container {
