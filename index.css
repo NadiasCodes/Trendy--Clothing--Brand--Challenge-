@@ -1,0 +1,156 @@
+:root {
+  /* fonts */
+  --poppins-font: "Poppins", sans-serif;
+  --Great-Vibes-font: "Great Vibes", cursive;
+  --Montserrat-font: "Montserrat", sans-serif;
+  --Dancing-font: "Dancing Script", cursive;
+
+  /* colors */
+  --main-color: ;
+  --dark-brown: ;
+  --gold: ;
+  --beige: ;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  width: 100vw;
+  line-height: 1.5;
+  font-family: var(--poppins-font);
+  margin: 0;
+  padding: 0;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Responsive */
+
+.container-box {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-inline: auto;
+}
+
+\* 2xl \* @media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+\* xl \* @media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+\* lg \* @media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+\* md \* @media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+\* sm \* @media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+\* xs \*/ @media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
