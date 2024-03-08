@@ -6,10 +6,9 @@
   --Dancing-font: "Dancing Script", cursive;
 
   /* colors */
-  --main-color: ;
-  --dark-brown: ;
-  --gold: ;
-  --beige: ;
+  --main-color: #bcb8b1;
+  --gold: #b29d8c;
+  --beige: #d7cabf;
 }
 
 /* Box sizing rules */
@@ -110,13 +109,13 @@ body {
 
 /* Navigation */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.966);
+  background-color: var(--main-color);
 }
 .nav-link {
   color: white;
 }
 .navbar-brand {
-  color: goldenrod;
+  width: 50px;
 }
 
 /* Hero */
@@ -143,28 +142,48 @@ header:hover {
   flex-direction: column;
 }
 .header-title {
-  font-size: 180px;
+  font-size: 140px;
   font-family: var(--Montserrat-font);
+  text-shadow: var(--gold);
+  letter-spacing: 3px;
 }
 
 .header-subtitle {
-  font-size: 48px;
+  font-size: 50px;
   margin-top: 20px;
+  font-family: var(--Dancing-font);
 }
 
 .header-button {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 25px 60px;
+  font-size: 22px;
+  font-family: var(--Montserrat-font);
+  background-color: #00000057;
+  border: 3px solid var(--gold);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 4px;
+  border-radius: 15px;
+  transition: all 400ms ease-in-out;
+  
+}
+
+.header-button:hover {
+  background-color: #876E63;
+  border: none;
+  color: white;
+  filter: drop-shadow(0 0 10px rgb(250, 250, 249));
+
 }
 
 .logo {
   display: block;
   margin: 0 auto;
   text-align: center;
-
   width: 200px;
-
-  -webkit-animation: spin 8000ms linear infinite;
-  animation: spin 8000ms linear infinite;
+  -webkit-animation: spin 35s linear infinite;
+  animation: spin 35s linear infinite;
 }
 
 @-webkit-keyframes spin {
