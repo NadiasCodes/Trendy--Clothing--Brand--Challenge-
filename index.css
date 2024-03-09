@@ -431,7 +431,7 @@ footer {
   }
   .footer-credits,
   .developer {
-    font-size: 13px;
+    font-size: 15px;
   }
   .social-link {
     font-size: 14px;
@@ -473,6 +473,6 @@ footer {
   }
     .footer-credits,
   .developer {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
