@@ -431,7 +431,7 @@ footer {
   }
   .footer-credits,
   .developer {
-    font-size: 16px;
+    font-size: 13px;
   }
   .social-link {
     font-size: 14px;
@@ -470,5 +470,9 @@ footer {
   }
   .swiper-pagination {
     height: 3px;
+  }
+    .footer-credits,
+  .developer {
+    font-size: 13px;
   }
 }
