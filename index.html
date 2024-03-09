@@ -22,7 +22,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,8 +70,8 @@
       </div>
     </nav>
     <!-- Hero -->
-    <div class="container-box">
-      <header>
+    <header>
+      <div class="container-box">
         <div class="header-title-box">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/131/original/Your_paragraph_text-removebg-preview.png?1709907972"
@@ -86,11 +86,12 @@
             <span style="color: #845a4a"> More</span>
           </h3>
 
-          <a href="/"> <button class="header-button">Discover</button></a>
+          <a href="/" class="button-reveal">
+            <button class="header-button">Discover</button></a
+          >
         </div>
-      </header>
-    </div>
-
+      </div>
+    </header>
     <!-- Main Section - Swipper -->
     <main>
       <section class="brand section" id="brand">
@@ -235,30 +236,30 @@
         <h2 class="brand-title" id="header">• Gallery •</h2>
         <p class="gallery-subtitle">Take a look at my favorite inspirations</p>
 
-        <div class="container-fluid text-center boxxx">
+        <div class="container-fluid text-center gallery-box">
           <div class="row p-4">
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/198/original/0bfd7eea24e8c552dc25e71d0be32e78.jpg?1709978660"
                 alt=""
                 class="gallery-image-responsive"
               />
             </div>
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/201/original/40b6b2c4e1e09ee250ed6b26c7f84015.jpg?1709978687"
                 alt=""
                 class="gallery-image-responsive"
               />
             </div>
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/200/original/18f61e4c8632e05383e5697d64e45365.jpg?1709978673"
                 alt=""
                 class="gallery-image-responsive"
               />
             </div>
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/199/original/6dbd797716e9319d6f3eb53aea2e1843.jpg?1709978668"
                 alt=""
@@ -267,29 +268,33 @@
             </div>
           </div>
           <div class="row p-4">
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/204/original/b0fdf1f53fbecc42183b8a15b55d4edc.jpg?1709978887"
-                alt="" class="gallery-image-responsive"
+                alt=""
+                class="gallery-image-responsive"
               />
             </div>
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/203/original/56128f68bcf09ff3cc3b150bb4be3a99.jpg?1709978881"
-                alt="" class="gallery-image-responsive"
+                alt=""
+                class="gallery-image-responsive"
               />
             </div>
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="
 https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/202/original/59c8b626dfad5c8b4ca55b703ae632cc.jpg?1709978865"
-                alt="" class="gallery-image-responsive"
+                alt=""
+                class="gallery-image-responsive"
               />
             </div>
-            <div class="col">
+            <div class="col-xxl-3">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/190/original/XXL_p0123676875.jpg?1709976673"
-                alt="" class="gallery-image-responsive"
+                alt=""
+                class="gallery-image-responsive"
               />
             </div>
           </div>
@@ -297,6 +302,34 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/202/origina
       </div>
     </section>
 
+    <footer>
+      <div class="container-box">
+        <h3 class="footer-credits">
+          This project was coded and designed by
+          <span class="developer">Nadia bouli</span>
+          <br />
+          as a part of the
+          <a
+            href="https://www.shecodes.io/challenges"
+            target="_blank"
+            class="shecodes"
+            style="color: #b29d8c"
+            >SheCodes</a
+          >
+          challenge.
+        </h3>
+
+        <div class="d-flex justify-content-center mt-3">
+          <a
+            href="https://www.linkedin.com/in/nadia-bouli/"
+            target="_blank"
+            title="Linkedin"
+            ><i class="bx bxl-linkedin social-link"></i
+          ></a>
+          <span style="color: #b29d8c"> | 2024</span>
+        </div>
+      </div>
+    </footer>
     <script src="java.js"></script>
   </body>
 </html>
