@@ -229,6 +229,7 @@ header:hover {
 
 .brand-container {
   overflow: initial;
+
 }
 
 .brand-content {
@@ -436,6 +437,7 @@ footer {
   .social-link {
     font-size: 14px;
   }
+  .swiper-pagination{height: 10px;}
 }
 
 @media (max-width: 475px) {
@@ -465,4 +467,5 @@ footer {
   .gallery-subtitle {
     font-size: 18px;
   }
+   .swiper-pagination{height: 10px;}
 }
