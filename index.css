@@ -386,10 +386,7 @@ footer {
   .brand-title {
     font-size: 50px;
   }
-  .brand-link,
-  .brand-subtitle {
-    display: none;
-  }
+ 
   .gallery-image-responsive:hover {
     transform: none;
   }
