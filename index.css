@@ -174,7 +174,7 @@ header:hover {
   font-weight: 700;
   letter-spacing: 4px;
   border-radius: 15px;
-  transition: all 400ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .header-button:hover {
@@ -332,28 +332,28 @@ footer {
   margin-top: 25px;
 
   > div {
-    flex: 0 0 200px;
+    flex: 0 0 350px;
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-    box-shadow: 1px 5px 15px #1e0e3e;
+    box-shadow: 1px 5px 15px var(--gold);
     position: relative;
     overflow: hidden;
 
     &:nth-of-type(1) {
-      background: url(" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/245/original/1a7258d585dc7f7f18f8dd2f160edb12.jpg?1710005631")
+      background: url(" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/249/original/1a7258d585dc7f7f18f8dd2f160edb12.jpg?1710006523")
         no-repeat 100% / cover;
     }
     &:nth-of-type(2) {
-      background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/244/original/14008395e28e58a1d9003acedb1639db.jpg?1710005622")
+      background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/251/original/09dfc60ede128e91bd6f881c59fcdf02.jpg?1710006552")
         no-repeat 50% / cover;
     }
     &:nth-of-type(3) {
-      background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/244/original/14008395e28e58a1d9003acedb1639db.jpg?1710005622")
+      background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/248/original/14008395e28e58a1d9003acedb1639db.jpg?1710006517")
         no-repeat 50% / cover;
     }
     &:nth-of-type(4) {
-      background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/244/original/14008395e28e58a1d9003acedb1639db.jpg?1710005622")
+      background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/254/original/d3ab15e5bb5a65c2dd7bd111380ee650.jpg?1710006744")
         no-repeat 50% / cover;
     }
 
@@ -367,11 +367,11 @@ footer {
       flex-direction: column;
       height: 100%;
       justify-content: flex-end;
-      background: rgb(2, 2, 46);
+      background: var(--gold);
       background: linear-gradient(
         0deg,
-        rgba(2, 2, 46, 0.6755077030812324) 0%,
-        rgba(255, 255, 255, 0) 100%
+        rgba(164, 160, 148, 0.11) 0%,
+        rgba(114, 113, 106, 0.203) 100%
       );
       transform: translatey(100%);
       transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
@@ -385,8 +385,7 @@ footer {
     }
 
     &:hover {
-      flex: 0 0 250px;
-      box-shadow: 1px 3px 15px #7645d8;
+      box-shadow: 1px 3px 15px var(--gold);
       transform: translatey(-30px);
     }
 
