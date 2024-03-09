@@ -229,7 +229,6 @@ header:hover {
 
 .brand-container {
   overflow: initial;
-
 }
 
 .brand-content {
@@ -310,7 +309,6 @@ footer {
 .footer-credits {
   font-size: 25px;
   font-family: var(--Dancing-font);
-  text-align: center;
 }
 .developer {
   font-family: var(--Great-Vibes-font);
@@ -386,13 +384,17 @@ footer {
   .brand-title {
     font-size: 50px;
   }
- 
+
   .gallery-image-responsive:hover {
     transform: none;
   }
 
   .social-link {
     font-size: 14px;
+  }
+  .footer-credits,
+  .developer {
+    font-size: 20px;
   }
 }
 
@@ -429,12 +431,14 @@ footer {
   }
   .footer-credits,
   .developer {
-    font-size: 18px;
+    font-size: 16px;
   }
   .social-link {
     font-size: 14px;
   }
-  .swiper-pagination{height: 10px;}
+  .swiper-pagination {
+    height: 10px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -464,5 +468,7 @@ footer {
   .gallery-subtitle {
     font-size: 18px;
   }
-   .swiper-pagination{height: 3px;}
+  .swiper-pagination {
+    height: 3px;
+  }
 }
