@@ -387,8 +387,7 @@ footer {
   }
   .brand-link,
   .brand-subtitle {
-    font-size: 15px;
-    margin-top:50px;
+    display: none;
   }
   .gallery-image-responsive:hover {
     transform: none;
