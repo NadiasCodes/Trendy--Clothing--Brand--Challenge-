@@ -124,6 +124,8 @@ body {
 }
 .nav-link {
   color: white;
+  font-family: var(--Great-Vibes-font);
+  font-size: 24px;
 }
 .navbar-brand {
   width: 50px;
@@ -289,7 +291,7 @@ header:hover {
   object-fit: cover;
 }
 .gallery-image-responsive:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
   filter: drop-shadow(0 -6mm 4mm rgb(230, 227, 220));
 }
 
