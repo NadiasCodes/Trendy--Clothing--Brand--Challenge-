@@ -208,8 +208,9 @@ header:hover {
   margin-top: 20px;
   font-size: 70px;
   font-family: var(--Dancing-font);
-  border-bottom: 1px dotted rgb(0, 0, 0);
+  border-bottom: 1px dotted var(--gold);
   padding: 10px 12px;
+  color: var(--gold);
 }
 
 .brand-subtitle {
@@ -258,4 +259,66 @@ header:hover {
   align-items: center;
   font-weight: 500;
   margin-bottom: 30px;
+}
+
+/* Secondary Section */
+
+.gallery-subtitle {
+  text-align: center;
+  font-style: italic;
+  font-family: var(--Dancing-font);
+  font-size: 30px;
+  color: var(--beige);
+  font-weight: 700;
+}
+
+.gallery-image-responsive {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1/1;
+  padding: 20px;
+  transition: all 500ms ease-in-out;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.gallery-image-responsive:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 -6mm 4mm rgb(230, 227, 220));
+}
+
+/* Media Queries */
+
+\* 2xl \* @media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+\* xl \* @media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+\* lg \* @media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+\* md \* @media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+\* sm \* @media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+\* xs \*/ @media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
 }
