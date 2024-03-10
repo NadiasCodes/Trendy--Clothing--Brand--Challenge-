@@ -141,10 +141,10 @@ header {
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  height: 650px;
+  padding: 70px 100px;
 
-  padding: 90px 100px;
-
-  transition: all 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
 }
 header:hover {
   filter: drop-shadow(0 0 25px rgb(128, 107, 62));
@@ -165,7 +165,7 @@ header:hover {
 
 .header-button {
   margin-top: 50px;
-  padding: 25px 60px;
+  padding: 15px 30px;
   font-size: 22px;
   font-family: var(--Montserrat-font);
   background-color: #00000057;
@@ -174,13 +174,14 @@ header:hover {
   font-weight: 700;
   letter-spacing: 4px;
   border-radius: 15px;
+
   transition: all 500ms ease-in-out;
 }
 
 .header-button:hover {
-  background-color: #876e63;
+  background-color: black;
   border: none;
-  color: white;
+  color: var(--gold);
   filter: drop-shadow(0 0 10px rgb(250, 250, 249));
 }
 
@@ -342,7 +343,7 @@ footer {
 
     &:nth-of-type(1) {
       background: url(" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/249/original/1a7258d585dc7f7f18f8dd2f160edb12.jpg?1710006523")
-        no-repeat 100% / cover;
+        no-repeat 50% / cover;
     }
     &:nth-of-type(2) {
       background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/251/original/09dfc60ede128e91bd6f881c59fcdf02.jpg?1710006552")
@@ -358,10 +359,9 @@ footer {
     }
 
     .content {
-      font-size: 1.5rem;
-      color: #fff;
       display: flex;
       align-items: center;
+      color: white;
       padding: 50px;
       opacity: 0;
       flex-direction: column;
@@ -370,8 +370,8 @@ footer {
       background: var(--gold);
       background: linear-gradient(
         0deg,
-        rgba(164, 160, 148, 0.11) 0%,
-        rgba(114, 113, 106, 0.203) 100%
+        rgba(80, 78, 72, 0.646) 0%,
+        rgba(65, 64, 58, 0.676) 100%
       );
       transform: translatey(100%);
       transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
@@ -397,6 +397,13 @@ footer {
   }
 }
 
+.hex-color-title {
+  font-family: var(--Dancing-font);
+  color: var(--beige);
+}
+.li {
+  color: white;
+}
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 15px;
@@ -474,6 +481,26 @@ footer {
   }
   .logo {
     margin-bottom: 15px;
+  }
+
+  .container-palette {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+    margin-top: 40px;
+    margin: 0 auto;
+
+    > div {
+      flex: 0 0 350px;
+      border-radius: 0.5rem;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      box-shadow: 1px 5px 15px var(--gold);
+    }
   }
 }
 
