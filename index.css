@@ -455,7 +455,7 @@ footer {
 
 @media (max-width: 1280px) {
   .container-box {
-    max-width: 2000px;
+    max-width: 1024px;
   }
   .gallery-image-responsive:hover {
     transform: none;
@@ -463,7 +463,7 @@ footer {
 }
 @media (max-width: 1024px) {
   .container-box {
-    max-width: 1000px;
+    max-width: 768px;
   }
   .header-title {
     font-size: 40px;
@@ -592,7 +592,9 @@ footer {
     .logo {
       margin-bottom: 10px;
     }
-    footer{ padding: 25px 25px;}
+    footer {
+      padding: 25px 25px;
+    }
   }
 
   @media (max-width: 475px) {
@@ -604,7 +606,6 @@ footer {
     }
     .header-subtitle {
       font-size: 25px;
-      
     }
     .header-button {
       padding: 10px 10px;
@@ -631,5 +632,7 @@ footer {
       font-size: 15px;
     }
   }
-  footer{ padding: 25px 25px;}
+  footer {
+    padding: 25px 25px;
+  }
 }
