@@ -333,6 +333,16 @@ footer {
 .palette-box {
   margin-top: 40px;
 }
+.card-title {
+  font-family: var(--Great-Vibes-font);
+  font-size: 27px;
+  color: var(--gold);
+}
+.card-text {
+  color: black;
+  opacity: 0.4;
+  font-size: 13px;
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar {
