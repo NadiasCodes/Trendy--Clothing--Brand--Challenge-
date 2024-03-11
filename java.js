@@ -36,11 +36,11 @@ ScrollReveal().reveal(".header-title", { delay: 500 });
 ScrollReveal().reveal(".logo, .header-subtitle", { delay: 800 });
 ScrollReveal().reveal(".button-reveal", { delay: 1500, origin: "left" });
 
-ScrollReveal().reveal(".brand-title", { delay: 1500, origin: "top" });
-ScrollReveal().reveal(".secondary-section", { delay: 1600, origin: "top" });
+ScrollReveal().reveal(".brand-title", { delay: 1200, origin: "top" });
+ScrollReveal().reveal(".secondary-section", { delay: 1300, origin: "top" });
 ScrollReveal().reveal(".brand-container, .palette-box", {
   delay: 1500,
   origin: "left",
 });
-ScrollReveal().reveal(".paragraph-subtitle", { delay: 1600, origin: "left" });
-ScrollReveal().reveal(".brand-container", { delay: 1600, origin: "left" });
+ScrollReveal().reveal(".paragraph-subtitle", { delay: 1400, origin: "left" });
+ScrollReveal().reveal(".brand-container", { delay: 1400, origin: "left" });
